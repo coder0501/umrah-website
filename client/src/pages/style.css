@@ -1,0 +1,3490 @@
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../assets/webfonts/Raleway-Regular.eot");
+  src: url("../assets/webfonts/Raleway-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/Raleway-Regular.woff") format("woff"),
+    url("../assets/webfonts/Raleway-Regular.ttf") format("truetype"),
+    url("../assets/webfonts/Raleway-Regular.svg#Raleway-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("../as.sets/webfonts/Raleway-Medium.eot");
+  src: url("../assets/webfonts/Raleway-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/Raleway-Medium.woff") format("woff"),
+    url("../assets/webfonts/Raleway-Medium.ttf") format("truetype"),
+    url("../assets/webfonts/Raleway-Medium.svg#Raleway-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterTight-Regular";
+  src: url("../assets/webfonts/InterTight-Regular.eot");
+  src: url("../assets/webfonts/InterTight-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InterTight-Regular.woff") format("woff"),
+    url("../assets/webfonts/InterTight-Regular.ttf") format("truetype"),
+    url("../assets/webfonts/InterTight-Regular.svg#InterTight-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InriaSerif-Bold";
+  src: url("../assets/webfonts/InriaSerif-Bold.eot");
+  src: url("../assets/webfonts/InriaSerif-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InriaSerif-Bold.woff") format("woff"),
+    url("../assets/webfonts/InriaSerif-Bold.ttf") format("truetype"),
+    url("../assets/webfonts/InriaSerif-Bold.svg#InriaSerif-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InriaSerif-Light";
+  src: url("../assets/webfonts/InriaSerif-Light.eot");
+  src: url("../assets/webfonts/InriaSerif-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InriaSerif-Light.woff") format("woff"),
+    url("../assets/webfonts/InriaSerif-Light.ttf") format("truetype"),
+    url("../assets/webfonts/InriaSerif-Light.svg#InriaSerif-Light")
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InriaSerif-Italic";
+  src: url("../assets/webfonts/InriaSerif-Italic.eot");
+  src: url("../assets/webfonts/InriaSerif-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InriaSerif-Italic.woff") format("woff"),
+    url("../assets/webfonts/InriaSerif-Italic.ttf") format("truetype"),
+    url("../assets/webfonts/InriaSerif-Italic.svg#InriaSerif-Italic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InriaSerif-Regular";
+  src: url("../assets/webfonts/InriaSerif-Regular.eot");
+  src: url("../assets/webfonts/InriaSerif-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InriaSerif-Regular.woff") format("woff"),
+    url("../assets/webfonts/InriaSerif-Regular.ttf") format("truetype"),
+    url("../assets/webfonts/InriaSerif-Regular.svg#InriaSerif-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RamadhanMubarok-Regular";
+  src: url("../assets/webfonts/RamadhanMubarok-Regular.eot");
+  src: url("../assets/webfonts/RamadhanMubarok-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/RamadhanMubarok-Regular.woff") format("woff"),
+    url("../assets/webfonts/RamadhanMubarok-Regular.ttf") format("truetype"),
+    url("../assets/webfonts/RamadhanMubarok-Regular.svg#RamadhanMubarok-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterTight-Black";
+  src: url("../assets/webfonts/InterTight-Black.eot");
+  src: url("../assets/webfonts/InterTight-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InterTight-Black.woff") format("woff"),
+    url("../assets/webfonts/InterTight-Black.ttf") format("truetype"),
+    url("../assets/webfonts/InterTight-Black.svg#InterTight-Black")
+      format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterTight-Light";
+  src: url("../assets/webfonts/InterTight-Light.eot");
+  src: url("../assets/webfonts/InterTight-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InterTight-Light.woff") format("woff"),
+    url("../assets/webfonts/InterTight-Light.ttf") format("truetype"),
+    url("../assets/webfonts/InterTight-Light.svg#InterTight-Light")
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterTight-Bold";
+  src: url("../assets/webfonts/InterTight-Bold.eot");
+  src: url("../assets/webfonts/InterTight-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InterTight-Bold.woff") format("woff"),
+    url("../assets/webfonts/InterTight-Bold.ttf") format("truetype"),
+    url("../assets/webfonts/InterTight-Bold.svg#InterTight-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterTight-Medium";
+  src: url("I../assets/webfonts/nterTight-Medium.eot");
+  src: url("../assets/webfonts/InterTight-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InterTight-Medium.woff") format("woff"),
+    url("../assets/webfonts/InterTight-Medium.ttf") format("truetype"),
+    url("../assets/webfonts/InterTight-Medium.svg#InterTight-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterTight-Thin";
+  src: url("../assets/webfonts/InterTight-Thin.eot");
+  src: url("../assets/webfonts/InterTight-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/InterTight-Thin.woff") format("woff"),
+    url("../assets/webfonts/InterTight-Thin.ttf") format("truetype"),
+    url("../assets/webfonts/InterTight-Thin.svg#InterTight-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("../assets/webfonts/Raleway-Light.eot");
+  src: url("../assets/webfonts/Raleway-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/Raleway-Light.woff") format("woff"),
+    url("../assets/webfonts/Raleway-Light.ttf") format("truetype"),
+    url("../assets/webfonts/Raleway-Light.svg#Raleway-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway-Black";
+  src: url("../assets/webfonts/Raleway-Black.eot");
+  src: url("../assets/webfonts/Raleway-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/Raleway-Black.woff") format("woff"),
+    url("../assets/webfonts/Raleway-Black.ttf") format("truetype"),
+    url("../assets/webfonts/Raleway-Black.svg#Raleway-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway-Thin";
+  src: url("../assets/webfonts/Raleway-Thin.eot");
+  src: url("../assets/webfonts/Raleway-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/Raleway-Thin.woff") format("woff"),
+    url("../assets/webfonts/Raleway-Thin.ttf") format("truetype"),
+    url("../assets/webfonts/Raleway-Thin.svg#Raleway-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../assets/webfonts/Raleway-Bold.eot");
+  src: url("../assets/webfonts/Raleway-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/webfonts/Raleway-Bold.woff") format("woff"),
+    url("../assets/webfonts/Raleway-Bold.ttf") format("truetype"),
+    url("../assets/webfonts/Raleway-Bold.svg#Raleway-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Start Screen CSS */
+.umrah-temple-img {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+
+/* Auth Pages CSS */
+.auth-form {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.auth-form-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.auth-form-main {
+  background-color: #fff;
+  overflow-y: auto;
+  width: 50%;
+}
+
+.auth-form-content-img {
+  padding: 40px 60px;
+}
+
+.auth-form-content {
+  padding-top: 30px;
+}
+
+.auth-form-image {
+  background-color: #f3f3f3;
+  display: flex;
+  width: 50%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-form-image img {
+  width: 100%;
+  height: 100%;
+}
+
+#form-margin-top {
+  margin-top: 8rem;
+}
+
+#email-confirmation-content {
+  text-align: center;
+}
+/* forgot-password css */
+#forgot-password-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* emailconfirmation css */
+.email-confirmation-text {
+  margin-top: 10px;
+}
+
+/* reset password css */
+#reset-password-content {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+}
+
+#reset-password-content span {
+  padding-top: 20px;
+}
+
+.auth-form-heading h1 {
+  margin: 0;
+  font-family: "Raleway-Regular";
+  font-weight: 800;
+}
+
+.auth-form-heading p {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  font-family: "Raleway-Medium";
+  letter-spacing: 1.2px;
+}
+
+/* Lines for img and text */
+.center-line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 50px; /* Adjust the height to fit your design */
+  padding: 30px 0px;
+  font-family: "Inter-Regular";
+  font-weight: 600;
+}
+
+.center-line-container::before,
+.center-line-container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 45%; /* Adjust to control the length of lines */
+  height: 1px;
+  background: linear-gradient(
+    to left,
+    rgba(26, 26, 26, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.center-line-container::after {
+  left: 50%;
+  background: linear-gradient(
+    to right,
+    rgba(26, 26, 26, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.center-line-container::before {
+  right: 50%;
+}
+
+.center-content {
+  color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content img {
+  width: 15px; /* Adjust based on image size */
+  height: 20px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%; /* To make it circular */
+}
+
+.center-content .text-center {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 5px;
+}
+
+.form-row {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.form-row .input-group {
+  flex: 1;
+  /* margin-right: 10px; */
+}
+
+.input-group {
+  flex-direction: column;
+  font-family: "Inter-Regular";
+}
+
+.input-group label {
+  font-weight: 600;
+}
+
+.required-field-color {
+  color: rgba(255, 59, 48, 1);
+  font-weight: 600;
+}
+
+.input-form-field input {
+  padding: 10px;
+  background-color: rgba(245, 245, 244, 1);
+  /* border: 1px solid rgba(28, 25, 23, 1); */
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Inter-Regular";
+  font-weight: 500;
+}
+
+.input-form-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.forgot-password {
+  margin-top: 5px;
+  text-align: right;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.auth-message {
+  color: green;
+}
+
+.auth-error-message {
+  color: red;
+}
+
+.create-account-btn {
+  padding: 10px 20px;
+  background-color: rgba(26, 26, 26, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Inter-Regular";
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.login-link {
+  margin-top: 10px;
+  font-family: "Inter-Regular";
+  font-weight: 500;
+}
+
+.page-link {
+  color: rgba(0, 122, 255, 1);
+}
+
+.social-login {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 37px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 60px;
+  height: 25px;
+}
+
+.icon-button {
+  padding: 10px 35px;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.17),
+    /* First shadow */ 0 0 3px 0 rgba(0, 0, 0, 0.08); /* Second shadow */
+}
+
+.social-icons .facebook {
+  background-color: rgba(24, 119, 242, 1);
+}
+
+.social-icons .apple {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+
+/* Signup CSS */
+.user-agent-registration-tab {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  width: 100%;
+}
+
+.user-registration-tab {
+  background: none;
+  border: none;
+  padding: 12px 0px;
+  width: 50%;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.agent-registration-tab {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  padding: 12px 0px;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.agent-registration-tab.active, .user-registration-tab.active {
+  color: rgba(212, 175, 55, 1);
+  border-bottom: 1px solid rgba(212, 175, 55, 1);
+  transition: width 1s ease-in-out;
+}
+
+
+/* PackageConfirmation Css */
+.pkg-confirmation {
+  padding-top: 10rem;
+}
+
+.pkg-confirmation-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.pkg-confirmation-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.pkg-confimation-notify {
+  padding: 0 20rem;
+  font-family: "Raleway-Regular";
+  font-size: 24px;
+}
+
+.pkg-confimation-notify p:nth-child(1) {
+  font-weight: 700;
+}
+
+.pkg-confirmation-content {
+  padding: 2rem 15rem;
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  font-family: "Raleway-Regular";
+  color: rgba(87, 83, 78, 1);
+  font-size: 16px;
+}
+
+.content-links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.content-links a {
+  color: rgba(0, 122, 255, 1);
+}
+
+.umrah-travel-grp-img-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.umrah-travel-grp-img img {
+  position: relative;
+}
+
+.umrah-travel-grp-img img:nth-child(1) {
+  left: 30px;
+}
+
+.umrah-travel-grp-img img:nth-child(2) {
+  left: 15px;
+}
+
+.umrah-travel-grp {
+  padding: 3rem 0;
+}
+
+.umrah-travel-grp-text p {
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.snd-request-btn {
+  color: rgba(0, 122, 255, 1);
+  padding: 8px 16px;
+  border-radius: 50px;
+  background-color: rgba(0, 122, 255, 0.12);
+  border: none;
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+}
+
+/* navbar css */
+.navbar.black {
+  background-color: rgba(26, 26, 26, 1);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+
+.navbar.transparent {
+  background-color: transparent;
+}
+
+.navbar-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+  /* width: 100%; */
+}
+
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  width: 1140px;
+  z-index: 1;
+}
+
+.logo {
+  font-family: "Cursive";
+  color: #ffd700; /* Gold color for the logo */
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.navbar-items {
+  width: 30%;
+  font-family: "Raleway-Regular";
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 21.6px;
+}
+
+.nav-item {
+  position: relative;
+  font-size: 18px;
+  width: 50%;
+  /* padding: 10px 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.nav-item-link {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  height: 100px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Underline effect */
+.nav-item::after {
+  content: "";
+  height: 4px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+/* Hover state for non-active items */
+.nav-item:hover::after {
+  background-color: rgba(212, 175, 55, 1);
+  transform: scaleX(1);
+}
+
+.nav-item:hover {
+  background-color: rgba(212, 175, 55, 0.05);
+}
+
+/* Active item styling */
+.nav-item.active {
+  background-color: rgba(212, 175, 55, 0.05);
+}
+
+.nav-item.active::after {
+  background-color: rgba(212, 175, 55, 1);
+  transform: scaleX(1);
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 23px 0px;
+  padding-left: 4rem;
+}
+
+.icon-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.u-icon {
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 13rem;
+  padding: 10px 0;
+  z-index: 10;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.dropdown-menu div:nth-child(4) {
+  padding-top: 10px;
+  border-top: 1px solid rgba(231, 229, 228, 1);
+}
+
+.dropdown-menu div:nth-child(5) {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+}
+
+.dropdown-menu a {
+  display: flex;
+  gap: 12px;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+}
+
+.icon-container:hover .dropdown-menu {
+  display: block; /* Show dropdown on hover */
+}
+
+.u-icon {
+  border-radius: 50%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Account CSS */
+.account-settings {
+  display: flex;
+  font-family: Arial, sans-serif;
+  border-radius: 16px;
+  border: 1px solid rgba(231, 229, 228, 1);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.account-sidebar {
+  width: 25%;
+  border-right: 1px solid rgba(214, 211, 209, 1);
+  padding-right: 40px;
+}
+
+.account-user-info-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.account-user-info h3,
+.account-user-info p {
+  margin: 0;
+}
+
+.account-user-info h3 {
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.account-user-info p {
+  font-family: "InterTight-Light";
+  font-weight: 400;
+  color: rgba(120, 113, 108, 1);
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.account-profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.account-nav-links {
+  list-style: none;
+  padding: 0;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+}
+
+.account-tab-link svg {
+  width: 25px;
+}
+
+.account-tab-link.active {
+  background-color: rgba(245, 245, 244, 1);
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.account-nav-links a {
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgba(41, 37, 36, 1);
+}
+
+.account-profile-form {
+  padding-left: 40px;
+  width: 70%;
+}
+
+.account-profile-form form {
+  margin-top: 3rem;
+}
+
+.personal-info-pwd-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  width: 70%;
+}
+
+.pwd-tab {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  padding: 12px 0px;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.personal-info-tab {
+  background: none;
+  border: none;
+  padding: 12px 0px;
+  width: 50%;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.pwd-tab.active {
+  color: rgba(0, 122, 255, 1);
+  border-bottom: 1px solid rgba(0, 122, 255, 1);
+}
+
+.personal-info-tab.active {
+  color: rgba(0, 122, 255, 1);
+  border-bottom: 1px solid rgba(0, 122, 255, 1);
+}
+
+.form-row {
+  margin-bottom: 1.5rem;
+}
+
+.form-row label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+}
+
+.form-row input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+}
+
+#account-form-field input {
+  background: none;
+  border: 1px solid rgba(231, 229, 228, 1);
+}
+
+#form-country-codes-phoneno {
+  display: flex;
+  gap: 10px;
+}
+
+#form-country-codes-phoneno span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+#form-country-codes-phoneno input {
+  background: none;
+  border: 1px solid rgba(231, 229, 228, 1);
+}
+
+.country-codes {
+  padding: 10px 40px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid rgba(231, 229, 228, 1);
+  font-family: "InterTight-Light";
+  font-weight: 600;
+}
+
+.save-button {
+  text-align: right;
+}
+.save-button button,
+.update-pwd-button button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: rgba(255, 255, 255, 1);
+  width: 30%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "InterTight-Light";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.update-pwd-button {
+  text-align: right;
+}
+/* AccountPersonalInfo CSS */
+.account-personal-info-section {
+  padding-top: 10rem;
+}
+
+.account-personal-info-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* PrevTour Grp Chats */
+.prevtours-grp-chats {
+  width: 70%;
+  padding-left: 40px;
+}
+
+.prevtours-grp-chats-title h3 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.prevtour-grp-chat-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.05);
+  border: 1px solid rgba(245, 245, 244, 1);
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.prevtour-details {
+  width: 27rem;
+}
+
+.prevtour-booking-ref-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 27rem;
+}
+
+.prevtour-booking-ref-status p {
+  margin: 0;
+}
+
+.prevtour-booking-ref-status p:nth-child(1) {
+  font-family: "InterTight-Light";
+  font-weight: 400;
+  letter-spacing: 0.09em;
+  color: rgba(120, 113, 108, 1);
+}
+
+.booking-ref {
+  font-weight: 600;
+  color: rgba(0, 122, 255, 1);
+}
+
+.prevtour-status {
+  background-color: rgba(52, 199, 89, 0.12);
+  padding: 6px 12px;
+  color: rgba(52, 199, 89, 1);
+  border-radius: 50px;
+}
+
+.prevtour-pkg-title-duration-dates-price {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  width: 90%;
+}
+
+.prevtour-pkg-title-duration-dates-price div {
+  margin: 8px 0px;
+}
+
+.prevtour-pkg-title-duration {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.prevtour-pkg-title-duration p {
+  margin: 0;
+}
+
+.prevtour-dates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.prevtour-dates .calendar-icon {
+  position: absolute;
+  left: 0;
+}
+
+.prevtour-dates .date-display {
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.prevtour-price {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.prevtour-price span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.prevtour-price div {
+  display: flex;
+  gap: 5px;
+  font-family: "InterTight-Medium";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+.prevtour-grp-details-link {
+  padding-top: 20px;
+  display: flex;
+  gap: 30px;
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.prevtour-grp-details-link a {
+  color: rgba(0, 122, 255, 1);
+}
+
+.prevtour-img {
+  position: relative;
+}
+
+.prevtour-pkg-type {
+  position: absolute;
+  padding: 4px 8px;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background-color: rgba(245, 245, 244, 0.5);
+  border-radius: 64px;
+}
+
+.prevtour-pkg-type p {
+  margin: 0;
+}
+
+/* Notification CSS */
+.booking-notification {
+  padding-left: 40px;
+  width: 70%;
+}
+
+.booking-notification-title h3 {
+  margin: 0;
+  font-family: "InterTight-Regular";
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+.booking-notification-items {
+  margin-top: 3rem;
+}
+
+.booking-notification-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  font-family: "InterTight-Regular";
+}
+
+.booking-notification-item-title-duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-notification-item-title-duration h3 {
+  margin: 0;
+  color: rgba(212, 175, 55, 1);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.booking-notification-item-title-duration p {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.booking-notification-item-title-duration li::marker {
+  color: rgba(0, 122, 255, 1);
+}
+
+.booking-notification-item-text {
+  margin-top: 5px;
+  width: 50%;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(68, 64, 60, 1);
+  letter-spacing: 0.05em;
+}
+
+.booking-notification-item-text p {
+  margin: 0;
+}
+/* privacy Polciy CSS */
+.privacy-policy-details {
+  padding-left: 40px;
+  width: 70%;
+  font-family: "InterTight-Medium";
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.privacy-policy-details li {
+  padding-left: 8px;
+}
+
+.privacy-policy-content {
+  margin-top: 3rem;
+}
+
+.privacy-policy-content-title {
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.privacy-policy-content-text {
+  font-weight: 400;
+  color: rgba(87, 83, 78, 1);
+  line-height: 19.2px;
+}
+
+.privacy-policy-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.privacy-policy-date {
+  color: rgba(87, 83, 78, 1);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.privacy-policy-date p {
+  margin-bottom: 0;
+}
+
+.privacy-policy-title-date {
+  font-family: "InterTight-Medium";
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  padding-bottom: 3rem;
+}
+
+.privacy-policy-title-date h3 {
+  margin: 0;
+}
+
+#privacy-policy-contact-details .privacy-policy-content-text li {
+  color: rgba(41, 37, 36, 1);
+}
+
+#privacy-policy-contact-details .privacy-policy-content-text span {
+  color: rgba(0, 122, 255, 1);
+}
+
+/* Help And Support CSS */
+.help-and-support-details {
+  padding-left: 40px;
+  width: 70%;
+  letter-spacing: 0.05em;
+}
+
+.help-and-support-faq {
+  padding-top: 2rem;
+}
+
+.faq-answer {
+  border-top: 1px solid rgba(231, 229, 228, 1);
+  padding: 2rem 0rem;
+  font-family: "InterTight-Medium";
+  color: rgba(87, 83, 78, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+}
+
+.faq-content {
+  padding-top: 2rem;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.faq-question h2 {
+  font-family: "InterTight-Medium";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.faq-question span {
+  font-size: 40px;
+}
+
+/* HomeBanner Css */
+.home-banner {
+  background-image: url("/home-banner.png");
+  background-size: cover;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+}
+
+.home-banner-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.home-banner-content {
+  padding: 28rem 0rem 10rem 0rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 100px;
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.home-banner-heading-text {
+  width: 55%;
+}
+
+.home-banner-heading-text h1 {
+  margin: 0;
+  font-family: "RamadhanMubarok-Regular";
+  letter-spacing: 0.05em;
+  font-size: 70px;
+}
+
+.home-banner-heading-text p {
+  margin-bottom: 0;
+  font-family: "Raleway-Medium";
+  font-size: 20px;
+  color: rgba(214, 211, 209, 1);
+  line-height: 28.8px;
+}
+.highlight-text-with-yellow {
+  color: rgba(212, 175, 55, 1);
+}
+
+.home-banner-text-btn {
+  width: 30%;
+  text-align: right;
+}
+
+.home-banner-text-btn p {
+  font-family: "Raleway-Medium";
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: rgba(214, 211, 209, 1);
+  line-height: 18px;
+}
+
+.explore-pkg-btn {
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 8px;
+  background-color: rgba(212, 175, 55, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+
+/* HomePackages Css */
+.home-packages {
+  margin: 50px 0px;
+  letter-spacing: 0.05em;
+}
+
+.home-packages-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.home-packages-title {
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.home-packages-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.package-card {
+  background-color: #fff; /* Example color, adjust as needed */
+  border: 1px solid #ddd; /* Example border, adjust as needed */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow, adjust as needed */
+}
+
+.package-card-details {
+  padding: 20px;
+}
+
+.package-card-text {
+  padding-bottom: 20px;
+}
+
+.package-card-text h3 {
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+}
+
+.package-card-text p {
+  margin: 0;
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+}
+
+.pkg-card-add-to-compair {
+  margin-top: 20px;
+}
+
+#package-detail-duration {
+  background-color: rgba(212, 175, 55, 0.12);
+  border-radius: 15px;
+  padding: 6px 12px;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.pkg-amount-per-person {
+  font-family: "InriaSerif-Light";
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.package-amount {
+  font-size: 30px;
+}
+
+.package-card-type-img {
+  position: relative;
+}
+
+.package-type {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "InterTight-Medium";
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+#hide {
+  display: none;
+}
+
+.package-card-details h2 {
+  font-size: 1.5rem;
+  color: #000; /* Example color, adjust as needed */
+  display: flex;
+  align-items: center;
+}
+
+.package-card-details p {
+  display: flex;
+  align-items: center;
+  padding: 3px 0px;
+}
+
+.package-card-details p svg {
+  margin-right: 10px;
+  width: 8%;
+}
+
+.add-to-compair {
+  margin-top: 20px;
+}
+
+.package-card-details .learn-more {
+  background-color: rgba(212, 175, 55, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.package-page-navigation a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 30rem 0rem 30rem;
+
+  gap: 10px;
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(28, 25, 23, 1);
+}
+
+.package-page-navigation p {
+  margin: 0;
+}
+
+/* HomeSacredJourney css */
+.home-sacred-journey {
+  background-color: rgba(28, 25, 23, 1);
+  letter-spacing: 0.05em;
+}
+
+.home-sacred-journey-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.home-sacred-journey-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: rgba(250, 250, 249, 1);
+}
+
+.sacred-journey-icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sacred-journey-icon-text span {
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.sacred-journey-title {
+  padding-bottom: 30px;
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+}
+
+.path-to-makkah {
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(212, 175, 55, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: "Raleway-Regular";
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sacred-journey-img {
+  padding-top: 50px;
+}
+
+/* HometTestimonials css */
+
+.home-tesitmonials {
+  padding: 50px 0px;
+  letter-spacing: 0.05;
+}
+
+.home-tesitmonials-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.home-tesitmonials-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+}
+
+.home-tesitmonials-title h2 {
+  font-size: 30px;
+}
+
+.home-testimonials-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.home-testimonials-feedback {
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.08em;
+  font-size: 14px;
+}
+
+.home-testimonials-text-rating {
+  background-color: rgba(250, 250, 249, 1);
+  padding: 24px;
+  border-radius: 4px;
+  border: none;
+}
+
+.home-testimonials-rating {
+  display: flex;
+  gap: 4px;
+}
+
+.home-testimonials-img-name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+}
+
+.home-testimonials-img-name p {
+  margin: 0;
+}
+/* AgentsTestimonialsInfo css */
+.agent-testimonial-info {
+  margin-top: 100px;
+  background: linear-gradient(rgba(250, 250, 249, 1), rgba(255, 255, 255, 0));
+}
+
+.agent-testimonial-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.agent-testimonial-main {
+  padding: 50px 0px;
+}
+
+.agent-info {
+  padding: 0px 50px 50px 50px;
+}
+
+.agent-info-main {
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+
+.agent-info-img-contact {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.agent-contact-info p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.agent-name-title p:nth-child(1) {
+  color: rgba(87, 83, 78, 1);
+}
+
+.agent-name-title p:nth-child(2) {
+  font-family: "Raleway-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(28, 25, 23, 1);
+}
+
+.agent-contact-details {
+  margin-top: 20px;
+}
+
+.agent-contact-details p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(0, 122, 255, 1);
+  font-size: 14px;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.agent-info-img-contact::after {
+  content: "";
+  position: relative;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  height: 11.5rem;
+  background-color: rgba(231, 229, 228, 1);
+}
+
+.agent-capabilites-main {
+  display: flex;
+  /* gap: 50px; */
+  justify-content: space-between;
+}
+
+.agent-capability-item {
+  width: 32%;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(245, 245, 244, 1);
+  padding: 8px 0px;
+  font-family: "InterTight-Light";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.agent-capability-item div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.agent-capability-item p {
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: rgba(87, 83, 78, 1);
+  margin: 0;
+}
+
+.agent-capabilites-content p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+}
+
+/* Testimonials CSS */
+.testimonials-info-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(231, 229, 228, 1);
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+}
+
+.testimonials-info-main {
+  padding: 50px 0px;
+}
+
+.testimonials-carousel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.carousel-btn-controls {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.testimonials-reviews {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.testimonials-reviews p {
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.testimonials-reviews a {
+  font-family: "InterTight-Light";
+  font-weight: 500;
+  color: rgba(0, 122, 255, 1);
+}
+
+.testimonials-reviews strong {
+  padding: 0px 5px;
+  border-radius: 50px;
+}
+
+.carousel-controls {
+  display: flex;
+  border-radius: 50px;
+  align-items: self-end;
+}
+
+.arrow-button {
+  background-color: rgba(245, 245, 244, 1);
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 5px;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.testimonial-carousel-container {
+  display: flex;
+  overflow: hidden;
+  gap: 20px;
+}
+
+.allPackages-carousel-container {
+  display: flex;
+  overflow: hidden;
+  gap: 20px;
+}
+
+.testimonial-card {
+  border-radius: 4px;
+  padding: 20px;
+  transition: transform 0.3s;
+  min-width: 280px;
+  background-color: rgba(250, 250, 249, 1);
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.allPackages-card {
+  background-image: url("./all-pkg-img.png");
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 4px;
+  min-width: 280px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.allPackages-card p {
+  margin: 0;
+}
+
+.allPackages-card-type {
+  background-color: rgba(255, 255, 255, 0.25);
+  width: 25%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+.allPackages-card-title-content {
+  padding-top: 6rem;
+  font-family: "Raleway-Regular";
+}
+
+.allPackages-card-title-content p:nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.allPackages-card-title-content p:nth-child(2) {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.profile-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.stars {
+  color: rgba(212, 175, 55, 1);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.testimonial_img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial_img h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials-carousel-header {
+    flex-direction: column;
+  }
+}
+
+/* AllPackages css */
+.all-packages {
+  padding-top: 150px;
+}
+
+.all-packages-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.all-packages-main {
+}
+
+.all-packages-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.packages-header {
+  margin-bottom: 10px;
+}
+
+.packages-header h2 {
+  margin: 0;
+  font-family: "Raleway-Bold";
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+}
+
+.packages-filter-btn {
+  display: flex;
+  gap: 60px;
+}
+
+.packages-umrah-hajj {
+  background-color: rgba(245, 245, 244, 1);
+  padding: 5px;
+  border-radius: 32px;
+}
+
+.packages-type-buttons {
+  display: flex;
+  background-color: rgba(245, 245, 244, 1);
+  padding: 5px;
+  border-radius: 32px;
+}
+
+.package-type-btn {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.package-type-btn:hover {
+  background-color: rgba(212, 175, 55, 1); /* Gold background */
+  color: white; /* Optional: To make text white */
+  border-radius: 20px; /* Optional: To add rounded corners like the image */
+}
+
+.packages-umrah-hajj-btn {
+  padding: 10px 40px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.packages-umrah-hajj-btn:hover {
+  background-color: rgba(212, 175, 55, 1); /* Gold background */
+  color: white; /* Optional: To make text white */
+  border-radius: 20px; /* Optional: To add rounded corners like the image */
+}
+
+/* Basic styling for the containers */
+.packages-filter-btn {
+  display: flex;
+  gap: 4rem;
+}
+
+.packages-filter-btn label {
+  border-radius: 30px;
+}
+
+.packages-umrah-hajj,
+.packages-type-buttons {
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.packages-umrah-hajj::after {
+  position: relative;
+  content: "";
+  width: 1px;
+  height: 40px;
+  left: 37px;
+  background-color: rgba(231, 229, 228, 1);
+}
+
+/* Style labels as buttons */
+.packages-umrah-hajj-btn,
+.package-type-btn {
+  padding: 6px 27px;
+  color: #333;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* Change background and border color when "button" is active */
+input[type="radio"]:checked + label {
+  background-color: rgba(212, 175, 55, 1); /* Active color */
+  color: white;
+  border-color: rgba(212, 175, 55, 1);
+}
+
+/* Itinerary css */
+.itinerary-section {
+  position: relative;
+}
+
+.compare-packages {
+  width: 25%;
+  height: 65%;
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  right: 70px;
+  bottom: -120px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(231, 229, 228, 1);
+  z-index: 2;
+  box-shadow: 0 4 4 -4;
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.compare-packages-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 20px;
+  background-color: rgba(250, 250, 249, 1);
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.compare-packages-item-title h3 {
+  margin: 0;
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.compare-packages-item-duration {
+  display: flex;
+  gap: 28px;
+  margin-top: 10px;
+  position: relative;
+  width: 90%;
+}
+
+.package-duration-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.package-duration-item p {
+  margin: 0;
+}
+
+.package-duration-nights::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: rgba(231, 229, 228, 1);
+  top: 0;
+  left: 50%;
+  bottom: 0;
+}
+
+.package-duration-item p {
+  margin: 0;
+}
+
+.compare-packages-btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.pkg-remove-all-btn {
+  padding: 12px 48px;
+  border: none;
+  background-color: rgba(250, 250, 249, 1);
+  color: rgba(87, 83, 78, 1);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.pkg-compare-btn {
+  padding: 12px 48px;
+  border: none;
+  background-color: rgba(28, 25, 23, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.itinerary-container {
+  max-width: 1140px;
+  margin: 40px auto;
+}
+
+.itinerary-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(212, 175, 55, 1); /* Yellow */
+  text-align: left;
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+.itinerary-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  position: relative;
+}
+
+.itinerary-timeline-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.itinerary-timeline::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: rgba(214, 211, 209, 1);
+  top: 0;
+  bottom: 0;
+  left: 4.5px;
+  height: 28rem;
+}
+
+.itinerary-timeline-item::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: rgba(87, 83, 78, 1);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.itinerary-timeline-content {
+  /* display: flex; */
+  margin-left: 40px;
+}
+
+.itinerary-timeline-day-date {
+  margin-right: 20px;
+  /* text-align: center; */
+}
+
+.itinerary-timeline-day {
+  font-weight: 600;
+  color: rgba(212, 175, 55, 1);
+  background-color: rgba(212, 175, 55, 0.12);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: "InterTight-Light";
+  font-size: 14px;
+}
+
+.itinerary-timeline-date {
+  font-size: 14px;
+  color: rgba(87, 83, 78, 1);
+  margin-left: 10px;
+  font-family: "InterTight-Medium";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.timeline-description p {
+  font-family: "InterTight-Medium";
+  font-size: 16px;
+  font-weight: 500;
+  font-weight: 0.1em;
+}
+
+/* UmrahPackageDetail css */
+.package-detail {
+  padding-top: 10rem;
+}
+
+.package-detail-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.package-detail-heading a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  text-decoration: none;
+  color: rgba(28, 25, 23, 1);
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+}
+
+.package-detail-heading h1 {
+  margin: 0;
+}
+
+.package-detail-booking {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  padding: 4rem 0rem;
+}
+
+.package-detail-booking-policy {
+  width: 40%;
+}
+
+.package-detail-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.package-agent-name p {
+  margin: 0;
+  font-family: "Raleway-Regular";
+}
+
+.package-agent-name p:nth-child(1) {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(168, 162, 158, 1);
+}
+
+.package-agent-name p:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(28, 25, 23, 1);
+  margin-top: 5px;
+}
+
+.package-agent-name-img,
+.package-agent-name-image {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.package-agent-name-image {
+  margin-top: 20px;
+}
+
+.package-agent-name-img::after {
+  content: "";
+  position: relative;
+  width: 1px;
+  background-color: rgba(231, 229, 228, 1);
+  height: 60px;
+}
+
+.package-agent-contacts p {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(0, 122, 255, 1);
+}
+
+.package-agent-contacts p:nth-child(2) {
+  margin-top: 5px;
+}
+.package-detail-booking-detail {
+  width: 60%;
+}
+
+.package-detail-note-policy p {
+  margin: 0;
+  padding: 5px 0px;
+}
+
+.package-detail-note-policy-card {
+  padding: 10px;
+  background-color: rgba(250, 250, 249, 1);
+  margin-top: 20px;
+  border-radius: 12px;
+  font-family: "Raleway-Regular";
+}
+
+.package-detail-note-policy-card p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.package-detail-note-policy-card h4 {
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.package-detail-note-policy-card svg {
+  padding: 10px;
+  width: 12px;
+}
+
+.package-agent-contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-family: "Raleway-Regular";
+}
+
+/* Checkbox CSS */
+.facilities-checkbox input[type="checkbox"] {
+  width: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.checkbox-group .custom-checkbox {
+  font-family: "Raleway-Regular";
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.custom-checkbox {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* / Hide the default checkbox / */
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  /* border: 2px solid #007aff; */
+}
+
+.custom-checkbox .checkmark:focus {
+  border: 2px solid #007aff;
+}
+
+/* / Create a custom checkbox / */
+.custom-checkbox .checkmark {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #007aff;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.custom-checkbox .pkg-stay-checkmark {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  border: 2px solid rgba(41, 37, 36, 1);
+  /* background-color: rgba(51, 54, 63, 1); */
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* / When the checkbox is checked, apply a new style / */
+.custom-checkbox input:checked + .checkmark {
+  border: 2px solid #007aff;
+}
+
+/* / Add a checkmark symbol when checked / */
+.custom-checkbox .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 11px;
+  border: 2px solid #007aff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox .pkg-stay-checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+
+  left: 5px;
+  top: 2px;
+  width: 2px;
+  height: 6px;
+  border: 2px solid white;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(40deg);
+}
+
+.custom-checkbox .pkg-stay-checkmark:hover {
+  background-color: rgba(41, 37, 36, 1);
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  display: block;
+}
+
+.custom-checkbox input:checked + .pkg-stay-checkmark::after {
+  display: block;
+}
+
+.package-detail-booking-duration-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.package-detail-booking-duration-title h2 {
+  margin: 0;
+  font-family: "Raleway-Bold";
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.add-to-compair-text p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.package-detail-booking-duration-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: rgba(250, 250, 249, 1);
+  border-radius: 50px;
+  padding: 10px;
+  width: 88%;
+  letter-spacing: 0.05em;
+}
+
+.package-detail-booking-duration-item {
+  background-color: transparent; /* Default background */
+  /* transition: background-color 0.3s ease; Smooth transition */
+  padding: 0px 30px;
+  border-radius: 50px;
+}
+
+.package-detail-booking-duration-item p {
+  margin: 0;
+  padding: 10px 12px;
+  font-family: "InterTight-Regular";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.package-detail-booking-duration-item p:nth-child(1) {
+  border-bottom: 1px solid rgba(245, 245, 244, 1);
+  /* transition: border-bottom-color 0.3s ease 0.3s; Add delay to border transition */
+}
+
+.package-detail-booking-duration-item:hover p:nth-child(1) {
+  border-bottom: 1px solid rgba(41, 37, 36, 1);
+}
+
+.package-detail-booking-duration-item:hover {
+  background-color: rgba(28, 25, 23, 1);
+  color: white;
+}
+
+.package-detail-booking-duration-item p {
+  display: flex;
+  gap: 5px;
+}
+
+/* date css */
+.date-range-selector {
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  border-top: 1px solid rgba(231, 229, 228, 1);
+  padding: 30px 0px;
+  margin: 30px 0px;
+}
+
+.date-range-selector h3 {
+  margin: 0;
+  font-family: "Raleway-Bold";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.date-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+.calendar-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.date-input {
+  padding-left: 35px;
+  width: 230px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid rgba(87, 83, 78, 1);
+  font-size: 16px;
+}
+
+.selected-dates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  padding-top: 20px;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.date-display {
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.selected-dates .calendar-icon {
+  font-size: 20px;
+  color: goldenrod;
+  left: 0px;
+}
+
+.hotel-option:hover {
+  border: 1px solid rgba(87, 83, 78, 1);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* .hotel-option {
+  border: 1px solid rgba(87, 83, 78, 1);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+} */
+
+.package-stay-details {
+  position: relative;
+}
+
+.select-pkg-stay {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+.package-stay {
+  position: relative;
+}
+
+.package-stay-options {
+  width: 100%;
+}
+
+.package-stay-option {
+  display: flex;
+  width: 100%;
+  gap: 7rem;
+}
+
+.package-stay-option .package-stay-5-nights-makkah:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  top: 0;
+  height: 100%;
+  left: 49%;
+  background-color: rgba(231, 229, 228, 1);
+}
+
+.package-stay-5-nights-makkah {
+  width: 50%;
+}
+
+.package-stay-5-nights-makkah div {
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  color: rgba(87, 83, 78, 1);
+  background-color: rgba(245, 245, 244, 1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: 50%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.package-stay-5-nights-makkah p {
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(28, 25, 23, 1);
+  letter-spacing: 0.05em;
+}
+
+.package-stay-5-nights-madina {
+  width: 50%;
+}
+
+.package-stay-5-nights-madina div {
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  width: 50%;
+  color: rgba(87, 83, 78, 1);
+  background-color: rgba(245, 245, 244, 1);
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.package-stay-5-nights-madina p {
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(28, 25, 23, 1);
+  letter-spacing: 0.05em;
+}
+
+.package-stay-option p {
+  padding-top: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.highlight-with-red {
+  color: rgba(255, 59, 48, 1);
+}
+
+.package-price-detail {
+  border-bottom: 1px solid rgba(231, 229, 228, 1);
+  border-top: 1px solid rgba(231, 229, 228, 1);
+  padding: 30px 0px;
+  margin: 30px 0px;
+  font-family: "Raleway-Medium";
+  letter-spacing: 0.05em;
+}
+
+.personal-info-price-title {
+  font-family: "InterTight-Light";
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(120, 113, 108, 1);
+}
+
+.package-price-title h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.package-options {
+  display: flex;
+  gap: 21px;
+}
+
+.package-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: border 0.3s;
+  position: relative;
+}
+
+.package-item:hover {
+  border: 1px solid rgba(87, 83, 78, 1);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.package-header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.package-icon img {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.package-name {
+  font-size: 14px;
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+}
+
+.selected-icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: green; /* Color of the checkmark when selected */
+  font-size: 16px;
+}
+
+.package-price {
+  margin-top: 8px;
+  font-size: 32px;
+  font-family: "InriaSerif-Bold";
+  font-weight: 700;
+  display: flex;
+  align-items: flex-end;
+}
+
+.package-price p {
+  display: flex;
+  font-size: 16px;
+  align-items: flex-end;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#per-person {
+  font-size: 16px;
+}
+
+.book-now-btn {
+  padding: 15px 96px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(212, 175, 55, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Raleway-Regular";
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+/* PersonalInfo css */
+.personal-info {
+  padding-top: 10rem;
+}
+
+.personal-info-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.personal-info-back-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(28, 25, 23, 1);
+  gap: 20px;
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.personal-info-back-btn h1 {
+  margin: 0;
+}
+
+.back-btn {
+  margin-bottom: 50px;
+  width: 15%;
+}
+
+.personal-info-form-pkg {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(231, 229, 228, 1);
+  border-radius: 12px;
+}
+
+.tabs-container {
+  width: 70%;
+}
+
+.personal-info-form {
+  width: 100%;
+}
+
+.personal-info-heading {
+  color: rgba(212, 175, 55, 1);
+  text-decoration: underline;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.personal-info-form-title p {
+  margin: 0;
+}
+
+.personal-info-form {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.personal-info-form-fields {
+  margin-top: 50px;
+}
+
+.personal-info-form-fields .form-details .form-field label {
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid rgba(231, 229, 228, 1);
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.form-group select {
+  width: 110.5%;
+}
+
+.personal-info-pkg {
+  padding-left: 50px;
+  width: 30%;
+  border-left: 1px solid rgba(231, 229, 228, 1);
+}
+
+.personal-info-pkg-title h3 {
+  margin-top: 0;
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.selected-pkg-img {
+  position: relative;
+}
+
+.selected-pkg-img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.personal-info-form::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  color: black;
+  width: 2px;
+  height: 100px;
+}
+
+.pkg-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  border: 1px solid rgba(231, 229, 228, 1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pkg-price p {
+  margin: 0;
+}
+
+.pkg-icon-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "InriaSerif-Regular";
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.pkg-name {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.pkg-icon-text .pkg-name {
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  color: rgba(87, 83, 78, 1);
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.pkg-icon-text p {
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.personal-info-person-taxes p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "InterTight-Medium";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.personal-info-title-duration h2 {
+  font-family: "Raleway-Medium";
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 21px;
+}
+
+.personal-info-title-duration p {
+  background-color: rgba(212, 175, 55, 0.12);
+  width: 45%;
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 50px;
+  color: rgba(212, 175, 55, 1);
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.personal-info-total p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(214, 211, 209, 1);
+  padding-top: 15px;
+  margin-bottom: 0;
+  font-family: "InterTight-Medium";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.selected-pkg-dates {
+  padding: 20px 0px;
+  border-top: 1px solid rgba(214, 211, 209, 1);
+  border-bottom: 1px solid rgba(214, 211, 209, 1);
+}
+
+.pkg-dates-title h3 {
+  margin: 0;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(120, 113, 108, 1);
+}
+
+/* Payment css */
+.personal-info-payment-tabs {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: rgba(120, 113, 108, 1);
+}
+
+.personal-info-payment {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Raleway-Regular";
+  font-weight: 600;
+  color: rgba(120, 113, 108, 1);
+  letter-spacing: 0.05em;
+  font-size: 20px;
+}
+
+
+
+.payment-form {
+  margin: 40px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.payment-form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 97%;
+  border: 1px solid rgba(231, 229, 228, 1);
+  border-radius: 8px;
+  font-family: "InterTight-Bold";
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.payment-option-img span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.payment-option-img p {
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(231, 229, 228, 1);
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row a {
+  color: rgba(0, 122, 255, 1);
+  text-decoration: none;
+}
+
+.form-row .form-group {
+  width: 48%;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.checkbox-group input {
+  width: 15px;
+}
+
+.save-next-btn {
+  text-align: right;
+  margin-top: 5rem;
+  padding-top: 20px;
+  border-top: 1px solid rgba(231, 229, 228, 1);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px 0px;
+  border-top: 1px solid rgba(231, 229, 228, 1);
+  gap: 25px;
+}
+
+.form-actions a{
+  text-decoration: none;
+  color: white;
+}
+
+.cancel-button,
+.submit-button {
+  background-color: rgba(212, 175, 55, 1);
+  padding: 16px;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-family: "InterTight-Light";
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+.submit-button {
+  color: white;
+  font-size: 16px;
+  /* padding: 12px 20px; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  padding: 0px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.submit-button {
+  /* background-color: #f5c518; */
+  color: white;
+}
+
+/* footer css */
+.umrah-footer {
+  background-image: url("./footer-bgImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(28, 25, 23, 1);
+  background-blend-mode: soft-light;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer-main {
+  padding: 90px 0px 30px 0px;
+  letter-spacing: 0.05em;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  color: rgba(250, 250, 249, 1);
+}
+
+.footer-about-umrah {
+  font-family: "Raleway-Regular";
+  font-weight: 400;
+}
+
+.footer-about-umrah-heading h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-contact-details-heading h4 {
+  font-size: 20px;
+  font-family: "Raleway-Regular";
+  font-weight: 700;
+  margin: 0;
+}
+
+#footer-contact-icon-text p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "InterTight-Regular";
+  font-weight: 400;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-logo-input input {
+  background-color: rgba(28, 25, 23, 1);
+  border: 1px solid rgba(168, 162, 158, 1);
+  border-right: 0px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: rgba(214, 211, 209, 1);
+  margin-top: 0;
+  font-size: 15px;
+  /* letter-spacing: 0.05em; */
+  padding-right: 12rem;
+  padding-left: 1rem;
+}
+
+.footer-email-input {
+  display: flex;
+  margin-top: 60px;
+}
+
+.footer-email-input svg {
+  padding: 20px;
+  padding: 15px;
+  background-color: rgba(212, 175, 55, 1);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.footer-copyright {
+  padding-top: 94px;
+  color: rgba(214, 211, 209, 1);
+  font-family: "InterTight-Regular";
+  font-weight: 400;
+}
+
+/* Screens max-width: 1024px */
+@media screen and (max-width: 1024px) {
+  .personal-info-form {
+    padding: 15px;
+  }
+}
+
+/* Screens max-width: 991px */
+@media screen and (max-width: 991px) {
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .submit-button {
+    padding: 10px 15px;
+  }
+}
+
+/* Screens min-width: 768px */
+@media screen and (min-width: 768px) {
+  .form-group {
+    display: flex;
+    gap: 4rem;
+    width: 95.5%;
+  }
+}
+
+/* Screens max-width: 767px */
+@media screen and (max-width: 767px) {
+  .personal-info-form {
+    padding: 10px;
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+  }
+}
+/*  Auth CSS and Responsiveness */
+@media screen and (max-width: 1024px) {
+  .auth-form-content form {
+    font-size: x-large;
+  }
+
+  .form-row {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  .auth-form-container {
+    flex-direction: column;
+  }
+
+  .auth-form-main {
+    width: 100%;
+    overflow-y: initial;
+  }
+
+  .auth-form-image {
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 100%;
+  }
+
+  .auth-form-content-img {
+    position: relative;
+    z-index: 1;
+  }
+
+  .auth-form-heading {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 376px;
+  }
+
+  .auth-form-heading p {
+    font-size: 2.5rem;
+  }
+
+  .auth-form-main {
+    padding: 0px;
+  }
+}
+
+@media screen and ((max-width: 767px)) {
+  .auth-form-heading {
+    margin-top: 0;
+    margin-bottom: 500px;
+    font-size: large;
+  }
+  .auth-form-heading p {
+    font-size: 1.6rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media screen and ((max-width: 500px)) {
+  .auth-form-heading {
+    margin-bottom: 200px;
+  }
+}
