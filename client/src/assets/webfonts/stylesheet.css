@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Inria Serif';
+  src: url('../webfonts/InriaSerif-Bold.eot');
+  src: url('../webfonts/InriaSerif-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/InriaSerif-Bold.woff') format('woff'),
+    url('../webfonts/InriaSerif-Bold.ttf') format('truetype'),
+    url('../webfonts/InriaSerif-Bold.svg#InriaSerif-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inria Serif';
+  src: url('../webfonts/InriaSerif-Light.eot');
+  src: url('../webfonts/InriaSerif-Light.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/InriaSerif-Light.woff') format('woff'),
+    url('../webfonts/InriaSerif-Light.ttf') format('truetype'),
+    url('../webfonts/InriaSerif-Light.svg#InriaSerif-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inria Serif';
+  src: url('../webfonts/InriaSerif-Italic.eot');
+  src: url('../webfonts/InriaSerif-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/InriaSerif-Italic.woff') format('woff'),
+    url('../webfonts/InriaSerif-Italic.ttf') format('truetype'),
+    url('../webfonts/InriaSerif-Italic.svg#InriaSerif-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inria Serif';
+  src: url('../webfonts/InriaSerif-Regular.eot');
+  src: url('../webfonts/InriaSerif-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/InriaSerif-Regular.woff') format('woff'),
+    url('../webfonts/InriaSerif-Regular.ttf') format('truetype'),
+    url('../webfonts/InriaSerif-Regular.svg#InriaSerif-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Ramadhan Mubarok';
+  src: url('../webfonts/RamadhanMubarok-Regular.eot');
+  src: url('../webfonts/RamadhanMubarok-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/RamadhanMubarok-Regular.woff') format('woff'),
+    url('../webfonts/RamadhanMubarok-Regular.ttf') format('truetype'),
+    url('../webfonts/RamadhanMubarok-Regular.svg#RamadhanMubarok-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/nterTight-Black.eot");
+  src: url("../webfonts/InterTight-Black.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Black.woff") format("woff"),
+    url("../webfonts/InterTight-Black.ttf") format("truetype"),
+    url("../webfonts/InterTight-Black.svg#InterTight-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Light.eot");
+  src: url("../webfonts/InterTight-Light.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Light.woff") format("woff"),
+    url("../webfonts/InterTight-Light.ttf") format("truetype"),
+    url("../webfonts/InterTight-Light.svg#InterTight-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Regular.eot");
+  src: url("../webfonts/InterTight-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Regular.woff") format("woff"),
+    url("../webfonts/InterTight-Regular.ttf") format("truetype"),
+    url("../webfonts/InterTight-Regular.svg#InterTight-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Bold.eot");
+  src: url("../webfonts/InterTight-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Bold.woff") format("woff"),
+    url("../webfonts/InterTight-Bold.ttf") format("truetype"),
+    url("../webfonts/InterTight-Bold.svg#InterTight-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("I../webfonts/nterTight-Medium.eot");
+  src: url("../webfonts/InterTight-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Medium.woff") format("woff"),
+    url("../webfonts/InterTight-Medium.ttf") format("truetype"),
+    url("../webfonts/InterTight-Medium.svg#InterTight-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../webfonts/InterTight-Thin.eot");
+  src: url("../webfonts/InterTight-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/InterTight-Thin.woff") format("woff"),
+    url("../webfonts/InterTight-Thin.ttf") format("truetype"),
+    url("../webfonts/InterTight-Thin.svg#InterTight-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../webfonts/Raleway-Medium.eot');
+  src: url('../webfonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Raleway-Medium.woff') format('woff'),
+    url('../webfonts/Raleway-Medium.ttf') format('truetype'),
+    url('../webfonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../webfonts/Raleway-Light.eot');
+  src: url('../webfonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Raleway-Light.woff') format('woff'),
+    url('../webfonts/Raleway-Light.ttf') format('truetype'),
+    url('../webfonts/Raleway-Light.svg#Raleway-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../webfonts/Raleway-Regular.eot');
+  src: url('../webfonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Raleway-Regular.woff') format('woff'),
+    url('../webfonts/Raleway-Regular.ttf') format('truetype'),
+    url('../webfonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../webfonts/Raleway-Black.eot');
+  src: url('../webfonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Raleway-Black.woff') format('woff'),
+    url('../webfonts/Raleway-Black.ttf') format('truetype'),
+    url('../webfonts/Raleway-Black.svg#Raleway-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../webfonts/Raleway-Thin.eot');
+  src: url('../webfonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Raleway-Thin.woff') format('woff'),
+    url('../webfonts/Raleway-Thin.ttf') format('truetype'),
+    url('../webfonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../webfonts/Raleway-Bold.eot');
+  src: url('../webfonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/Raleway-Bold.woff') format('woff'),
+    url('../webfonts/Raleway-Bold.ttf') format('truetype'),
+    url('../webfonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
